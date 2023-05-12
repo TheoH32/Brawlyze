@@ -2,7 +2,7 @@
 title: Shelly
 tags: [getting_started, troubleshooting]
 keywords:
-summary: "Recommended build:"
+summary: "test"
 sidebar: mydoc_sidebar
 permalink: shelly.html
 folder: mydoc
