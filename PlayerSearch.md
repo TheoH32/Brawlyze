@@ -7,21 +7,24 @@ permalink: playersearch.html
 <head>
     <title>Input and Save</title>
     <script>
+        getXmlHttpRequestObject = function () {
+        if (!xhr) {
+            // Create a new XMLHttpRequest object 
+            xhr = new XMLHttpRequest();
+        }
+        return xhr;
+        };
         async function saveInput(event) {
             if (event.keyCode === 13) {  // Check if the Enter key is pressed
                 var inputText = document.getElementById("inputField").value;  // Get the input value
-                console.log("tag",inputText)
-                fetch('https://api.brawlstars.com/v1/players/%239LPU200R', {
-                    method: 'GET',
-                    mode: 'cors',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjdlODUwMWM1LTc0YTItNGU5Mi05ZjNhLTc2ZDg1NGNjOWQzMyIsImlhdCI6MTY4Mzc2MjU3Miwic3ViIjoiZGV2ZWxvcGVyLzM4MjRmMjMxLTg5ZGItOTdjOC01YjgzLTQ3YjRhYWZlNzgzMiIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiNTQuODYuNTAuMTM5IiwiNzIuMTk3LjI0Ni4xMDEiLCIxNzIuNTYuMTY5Ljg1Il0sInR5cGUiOiJjbGllbnQifV19.DJ7mHnVINV4-dHe84N_Ac52C-BNHLwiCQBNJ5OS9T0ovKLhZLg2g8iCzaYY812EbHEelYxhSEkpU16RnxR0GXw'
-                    }
-                })
-                .then(response => response.json())
-                .then(data => console.log(data))
-                .catch(error => console.error(error));
+                console.log("tag :" + inputText)
+                console.log("Get users...");
+                xhr = getXmlHttpRequestObject();
+                xhr.onreadystatechange = dataCallback;
+                // asynchronous requests
+                xhr.open("GET", "https://brawlyzebackend.duckdns.org/api/brawl", true);
+                // Send the request over the network
+                xhr.send(null);
             }
         }
     </script>
@@ -30,4 +33,3 @@ permalink: playersearch.html
     <input type="text" id="inputField" onkeypress="saveInput(event)" placeholder="Enter tag">
 </body>
 </html>
-

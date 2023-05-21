@@ -5,8 +5,8 @@ topnav:
   items:
     - title: Player Search
       url: /playersearch.html
-    - title: News
-      url: /news
+    - title: Brawler Stats
+      url: /stats
 
 #Topnav dropdowns
 topnav_dropdowns:
