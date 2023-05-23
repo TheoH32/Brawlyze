@@ -31,7 +31,7 @@ permalink: playersearch.html
                 console.log("Get users...");
                 let xhr = new XMLHttpRequest();
                 //POST
-                xhr.open("POST", "https://brawlyzebackend.duckdns.org/api/brawl/");
+                xhr.open("POST", "https://brawlyzebackend.duckdns.org/api/brawl");
                 xhr.setRequestHeader("Accept", "application/json");
                 xhr.setRequestHeader("Content-Type", "application/json");
                 xhr.onreadystatechange = function () {
