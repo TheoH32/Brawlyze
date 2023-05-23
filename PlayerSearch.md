@@ -19,7 +19,7 @@ permalink: playersearch.html
         // Check response is ready or not
         if (xhr.readyState == 4 && xhr.status == 200) {
             console.log("User data received!");
-            dataDiv = document.getElementById('result-container');
+            dataDiv = document.getElementById("result-container");
             // Set current data text
             dataDiv.innerHTML = xhr.responseText;
         }
