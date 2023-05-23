@@ -39,7 +39,7 @@ permalink: playersearch.html
                     console.log(xhr.status);
                     console.log(xhr.responseText);
                 }};
-                let data = JSON.stringify(inputText);
+                let data = JSON.stringify({"tag": inputText});
                 xhr.send(data);
             }
         }
