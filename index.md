@@ -1,9 +1,7 @@
 ---
 title: "Brawler Profiles"
 keywords: sample homepage
-sidebar: mydoc_sidebar
 permalink: index.html
-summary: Click on each brawler to see info like counters
 ---
 
 <a href="/shelly.html" rel="some text"><img src="/images/icons/shellyicon.webp" alt="" /></a>
@@ -74,10 +72,18 @@ summary: Click on each brawler to see info like counters
 <a href="/shelly.html" rel="some text"><img src="/images/icons/rticon.webp" alt="" /></a>
 <a href="/shelly.html" rel="some text"><img src="/images/icons/maisieicon.webp" alt="" /></a>
 
-
-
-
-
+<head>
+  <style>
+    body {
+      background-image: url("/images/background.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      color: white;
+    }
+  </style>
+</head>
 
 
 
