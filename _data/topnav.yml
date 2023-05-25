@@ -12,7 +12,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Help
+    - title: Power League
       folderitems:
         - title: Jekyll Talk
           external_url: https://talk.jekyllrb.com

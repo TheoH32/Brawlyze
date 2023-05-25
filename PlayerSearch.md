@@ -2,6 +2,16 @@
 title: Player Search
 permalink: playersearch.html
 ---
+<style>
+    body {
+        background-image: url("/images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    h1 {
+        color: white;
+    }
+</style>
 
 <html>
 <head>
@@ -26,7 +36,17 @@ permalink: playersearch.html
                 };
                 fetch("https://brawlyzebackend.duckdns.org/api/brawl", requestOptions)
                 .then(response => response.text())
-                .then(result => document.getElementById("result-container").innerText = result)
+                .then(result => {
+                    console.log(result);
+                    // Pretty-print the data
+                    const p1 = JSON.parse(result)
+                    const parsedData = JSON.parse(p1)
+                    console.log(parsedData);
+                    console.log(parsedData.name)
+                    const name = parsedData.name
+                    var resultContainer = document.getElementById("result-container");
+                    resultContainer.innerText = name;        
+                })
                 .catch(error => console.log('error', error)); 
             }
         }

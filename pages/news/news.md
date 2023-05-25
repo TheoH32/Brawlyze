@@ -15,7 +15,7 @@ folder: news
   <div id="DirectEditPreserve" class="wow fadeInUp databaseTable_holder 122860">
     <div id="DirectEditPreserve" class="databaseTable_heading">
       <!-- Below is top left green title-->
-      <div id="DirectEditPreserve" class="databaseTable_title">Power 11 Stats</div>
+      <div id="DirectEditPreserve" class="databaseTable_title">Power 11</div>
       <input id="DirectEditPreserve" class="databaseTable_search" type="text" width="200" placeholder="Search this table">
     </div>
     <div id="DirectEditPreserve" class="databaseTable">
@@ -28,6 +28,12 @@ folder: news
 </html>
 
 <style>
+  h1 {
+    color: white
+  }
+  body {
+      background-image: url("/images/background.jpg");
+    }
   @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
   @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700|Source+Sans+Pro:100,300,400,600,700,300italic,400italic,600italic,700italic");
   .databaseTable_holder {
@@ -44,7 +50,6 @@ folder: news
     overflow-y: scroll;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
-    border: 1px solid #ccc;
     //border-radius: 0 0 4px 4px;
     border-top: none;
   }
@@ -61,11 +66,12 @@ folder: news
     padding: 1.25em;
   }
   .databaseTable_heading {
-    background-color: #7EB535;
+    background-color: #347dbe;
     color: #fff;
     font-weight: normal;
     height: 3em;
     position: relative;
+    max-width: 90%
   }
   .databaseTable_title {
     position: absolute;
@@ -76,6 +82,7 @@ folder: news
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap; 
+    font-size: 2em;
   }
   .databaseTable_heading:after {
     content: '';

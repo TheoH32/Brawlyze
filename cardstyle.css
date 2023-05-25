@@ -212,8 +212,83 @@
     width: 50%;
     background-color: white;
     padding: 10px;
+    border-radius: 10px;
 }
 
 h1 {
     margin: 0px 0px 0px;
+}
+
+#shelly:hover,
+#nita:hover,
+#colt:hover,
+#bull:hover,
+#brock:hover,
+#elprimo:hover,
+#barley:hover,
+#poco:hover,
+#rosa:hover,
+#jessie:hover,
+#dynamike:hover,
+#tick:hover,
+#eightbit:hover,
+#rico:hover,
+#darryl:hover,
+#penny:hover,
+#carl:hover,
+#jacky:hover,
+#gus:hover,
+#bo:hover,
+#emz:hover,
+#stu:hover,
+#piper:hover,
+#pam:hover,
+#frank:hover,
+#bibi:hover,
+#bea:hover,
+#nani:hover,
+#edgar:hover,
+#griff:hover,
+#grom:hover,
+#bonnie:hover,
+#mortis:hover,
+#tara:hover,
+#gene:hover,
+#max:hover,
+#mrp:hover,
+#sprout:hover,
+#byron:hover,
+#squeak:hover,
+#gray:hover,
+#willow:hover,
+#spike:hover,
+#crow:hover,
+#leon:hover,
+#sandy:hover,
+#amber:hover,
+#meg:hover,
+#chester:hover,
+#gale:hover,
+#surge:hover,
+#colette:hover,
+#lou:hover,
+#ruffs:hover,
+#belle:hover,
+#buzz:hover,
+#ash:hover,
+#lola:hover,
+#fang:hover,
+#eve:hover,
+#janet:hover,
+#otis:hover,
+#sam:hover,
+#buster:hover,
+#mandy:hover,
+#rt:hover,
+#maisie:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
 }
