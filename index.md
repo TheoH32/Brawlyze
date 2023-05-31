@@ -9,7 +9,7 @@ permalink: index.html
   <a href="/shelly.html" rel="some text"><img src="/images/icons/COLT.webp" id="colt" /></a>
   <a href="/shelly.html" rel="some text"><img src="/images/icons/BULL.webp" id="bull" /></a>
   <a href="/shelly.html" rel="some text"><img src="/images/icons/BROCK.webp" id="brock" /></a>
-  <a href="/shelly.html" rel="some text"><img src="/images/icons/ELPRIMO.webp" id="elprimo" /></a>
+  <a href="/shelly.html" rel="some text"><img src="/images/icons/EL PRIMO.webp" id="elprimo" /></a>
   <a href="/shelly.html" rel="some text"><img src="/images/icons/BARLEY.webp" id="barley" /></a>
   <a href="/shelly.html" rel="some text"><img src="/images/icons/POCO.webp" id="poco" /></a>
   <a href="/shelly.html" rel="some text"><img src="/images/icons/ROSA.webp" id="rosa" /></a>
