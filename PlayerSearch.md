@@ -151,7 +151,10 @@ permalink: playersearch.html
             // WINS TABLE
             if (!playerStatsDiv.querySelector("table")) {
                 const table = document.createElement("table");
-                const headers = ["Solo Wins", "Duo Wins", "3v3 Wins"];
+                const soloWinPic = `<img src="images/soloshowdown.png" style="width: 30px">`;
+                const duoWinPic = `<img src="images/duoshowdown.png" style="width: 30px">`;
+                const threeWinPic = `<img src="images/gemgrab.png" style="width: 30px">`;
+                const headers = [soloWinPic + "<br>" + "Solo Wins", duoWinPic + "<br>" + "Duo Wins", threeWinPic + "<br>" +"3v3 Wins"];
                 table.innerHTML = `
                     <tr>${headers.map(headerText => `<th>${headerText}</th>`).join("")}</tr>
                     <tr>${[soloVictories, duoVictories, threeVsThreeVictories].map(winCount => `<td>${winCount}</td>`).join("")}</tr>
