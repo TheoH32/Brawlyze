@@ -54,7 +54,7 @@ toc: false
 
 <div class="counter-text">
     <h1>Counters:</h1>
-    <img src="images/icons/stuicon.webp" id="stu">
-    <img src="images/icons/crowicon.webp" id="crow">
-    <img src="images/icons/emzicon.webp" id="emz">
+    <img src="images/icons/STU.webp" id="stu">
+    <img src="images/icons/CROW.webp" id="crow">
+    <img src="images/icons/EMZ.webp" id="emz">
 </div>
