@@ -32,20 +32,17 @@ toc: false
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">5700</div>
-                            <div class="type">HEALTH</div>
-                        </div>
-                        <div class="info">
                             <div class="value">2250</div>
                             <div class="type">DAMAGE</div>
+                        </div>
+                        <div class="info">
+                            <div class="value">5700</div>
+                            <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
                             <div class="value">SPEED</div>
                             <div class="type">VERY FAST</div>
                         </div>
-                    </div>
-                    <div class="selector">
-                        <button>go with this!</button>
                     </div>
                 </div>
             </div>
@@ -54,6 +51,13 @@ toc: false
 
 <div class="counter-text">
     <h1>Counters:</h1>
+    <img src="images/icons/STU.webp" id="stu">
+    <img src="images/icons/CROW.webp" id="crow">
+    <img src="images/icons/EMZ.webp" id="emz">
+</div>
+
+<div class="reccomendedBuild">
+    <h1>Reccomended</h1>
     <img src="images/icons/STU.webp" id="stu">
     <img src="images/icons/CROW.webp" id="crow">
     <img src="images/icons/EMZ.webp" id="emz">
