@@ -1,5 +1,5 @@
 ---
-permalink: shelly.html
+permalink: sandy.html
 folder: mydoc
 toc: false
 ---
@@ -23,10 +23,10 @@ toc: false
             <div class="containter">
                 <div class="card">
                     <div class="card-image">
-                        <img src="/images/2D/Shelly_Pose.png" alt="Character">
+                        <img src="/images/2D/Sandy_Pose.png" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Shelly</h1>
+                        <h1>Dynamike</h1>
                         <span class="power">Damage Dealer</span>
                         <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
                     </div>
@@ -51,11 +51,11 @@ toc: false
 
 <div class="counter-text">
     <h1>Counters:</h1>
-    <a href="/stu.html" rel="some text"><img src="/images/icons/STU.webp" id="stu" /></a>
-    <a href="/crow.html" rel="some text"><img src="/images/icons/CROW.webp" id="crow" /></a>
-    <a href="/emz.html" rel="some text"><img src="/images/icons/EMZ.webp" id="emz" /></a>
-    <a href="/nita.html" rel="some text"><img src="/images/icons/NITA.webp" id="nita" /></a>
+    <a href="/carl.html" rel="some text"><img src="/images/icons/CARL.webp" id="carl" /></a>
+    <a href="/griff.html" rel="some text"><img src="/images/icons/GRIFF.webp" id="griff" /></a>
+    <a href="/amber.html" rel="some text"><img src="/images/icons/AMBER.webp" id="amber" /></a>
     <a href="/spike.html" rel="some text"><img src="/images/icons/SPIKE.webp" id="spike" /></a>
+    <a href="/dynamike.html" rel="some text"><img src="/images/icons/DYNAMIKE.webp" id="dynamike" /></a>
     <br>
     <br>
     <br>
