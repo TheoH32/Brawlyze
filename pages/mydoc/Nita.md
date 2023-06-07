@@ -28,7 +28,7 @@ toc: false
                     <div class="card-body">
                         <h1>Nita</h1>
                         <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <p>Nita strikes her enemies with a thunderous shockwave. Her Super summons a massive bear to fight by her side!</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">

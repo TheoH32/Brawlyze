@@ -26,21 +26,21 @@ toc: false
                         <img src="/images/2D/Rosa_Pose.png" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Nita</h1>
-                        <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <h1>Rosa</h1>
+                        <span class="power">Tank</span>
+                        <p>This boxing botanist will plant her feet and go toe to toe! Her Super gives her tough, vegan protective gear.</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">3x690</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">8100</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">FAST</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>

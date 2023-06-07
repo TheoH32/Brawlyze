@@ -28,19 +28,19 @@ toc: false
                     <div class="card-body">
                         <h1>Colt</h1>
                         <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <p>An unlikely hero that often finds himself in the wrong place at the right time. He’s not one to shy away from a mirror and is simply brimming with confidence!</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">540x6</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">4200</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">NORMAL</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>

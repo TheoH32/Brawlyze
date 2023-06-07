@@ -26,21 +26,21 @@ toc: false
                         <img src="/images/2D/Barley_Pose.png" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Nita</h1>
-                        <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <h1>Barley</h1>
+                        <span class="power">Artillery</span>
+                        <p>Barley serves the finest beverages in Starr Park. But dirty his bar up and steam comes out and bottles start flying!</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">1140</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">3600</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">NORMAL</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>

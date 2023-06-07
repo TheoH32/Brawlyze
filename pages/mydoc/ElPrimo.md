@@ -26,21 +26,21 @@ toc: false
                         <img src="/images/2D/ElPrimo_Pose.png" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Nita</h1>
-                        <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <h1>El Primo</h1>
+                        <span class="power">Tank</span>
+                        <p>El Primo throws a flurry of punches at his enemies. His Super is a leaping elbow drop that deals damage to all caught underneath!</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">4x540</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">9000</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">FAST</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>
