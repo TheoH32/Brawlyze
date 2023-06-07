@@ -4,7 +4,7 @@ permalink: playersearch.html
 ---
 
 <body>
-    <input type="text" id="inputField" onkeypress="saveInput(event)" placeholder="Enter tag">
+    <input type="text" id="inputField" onkeypress="saveInput(event)" placeholder="Enter tag without #">
     <div id="result-container">
         <div id="name">
             <h1></h1>

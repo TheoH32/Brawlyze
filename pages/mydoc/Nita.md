@@ -32,15 +32,15 @@ toc: false
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">1440</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">6000</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">NORMAL</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>

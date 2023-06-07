@@ -26,7 +26,7 @@ toc: false
                         <img src="/images/2D/Colt_Pose.png" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Nita</h1>
+                        <h1>Colt</h1>
                         <span class="power">Damage Dealer</span>
                         <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
                     </div>
