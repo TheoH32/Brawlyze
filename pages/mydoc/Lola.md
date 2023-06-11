@@ -7,9 +7,8 @@ toc: false
 <head>
   <style>
     body {
-      background-image: url("/images/background.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-color: black;
+        background-image: url("/images/background.jpg");
     }
     h1 {
         font-family: 'Montserrat', sans-serif;

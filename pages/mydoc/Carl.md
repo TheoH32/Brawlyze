@@ -7,9 +7,8 @@ toc: false
 <head>
   <style>
     body {
-      background-image: url("/images/background.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-color: black;
+        background-image: url("/images/background.jpg");
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -26,21 +25,21 @@ toc: false
                         <img src="/images/2D/Carl_Pose.png" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Nita</h1>
+                        <h1>Carl</h1>
                         <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <p>Carl throws his Pickaxe like a boomerang. His Super is a crazy cart spin that clobbers anyone around him.</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">990x2</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">6000</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">NORMAL</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>

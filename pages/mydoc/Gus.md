@@ -7,9 +7,8 @@ toc: false
 <head>
   <style>
     body {
-      background-image: url("/images/background.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-color: black;
+        background-image: url("/images/background.jpg");
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -26,17 +25,17 @@ toc: false
                         <img src="/images/2D/Gus_Pose.png" style="width:130px" alt="Character">
                     </div>
                     <div class="card-body">
-                        <h1>Nita</h1>
-                        <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <h1>Gus</h1>
+                        <span class="power">Support</span>
+                        <p>Calling an abandoned train ride home, Gus loves balloons. As legend has it, one day, he followed a floating balloon dog too far, got lost, and has been there ever since.</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">1410</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">4800</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">

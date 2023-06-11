@@ -7,9 +7,8 @@ toc: false
 <head>
   <style>
     body {
-      background-image: url("/images/background.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-color: black;
+        background-image: url("/images/background.jpg");
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -28,19 +27,19 @@ toc: false
                     <div class="card-body">
                         <h1>Tick</h1>
                         <span class="power">Damage Dealer</span>
-                        <p>Shelly's spread-fire shotgun blasts the other team with buckshot. Her super destroys cover and keeps her opponents at a distance!</p>
+                        <p>Tick is a metal ball of barely controlled excitement and energy - explosive energy! He throws mines, and his Super makes his head detach, seek a target and explode.</p>
                     </div>
                     <div class="card-footer">
                         <div class="info">
-                            <div class="value">2250</div>
+                            <div class="value">960x3</div>
                             <div class="type">DAMAGE</div>
                         </div>
                         <div class="info">
-                            <div class="value">5700</div>
+                            <div class="value">3300</div>
                             <div class="type">HEALTH</div>
                         </div>
                         <div class="info">
-                            <div class="value" style="font-size: 10px">VERY FAST</div>
+                            <div class="value" style="font-size: 10px">NORMAL</div>
                             <div class="type">SPEED</div>
                         </div>
                     </div>

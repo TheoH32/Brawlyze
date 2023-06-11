@@ -35,6 +35,7 @@ permalink: playersearch.html
 
 <style>
     body {
+        background-color: black;
         background-image: url("/images/background.jpg");
     }
     

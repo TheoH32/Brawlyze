@@ -3,7 +3,6 @@ title: Brawler Stats
 sidebar: home_sidebar
 permalink: stats.html
 toc: false
-folder: news
 ---
 
 <html>
@@ -32,6 +31,7 @@ folder: news
     color: white
   }
   body {
+      background-color: black;
       background-image: url("/images/background.jpg");
     }
   @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
